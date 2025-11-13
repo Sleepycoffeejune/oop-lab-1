@@ -7,3 +7,11 @@ class Book:
         self.available_copies = total_copies
 
 
+class Member:
+    def __init__(self, id, name, email):
+        self.id = id
+        self.name = name
+        self.email = email
+        self.borrowed_books_list = []
+
+
