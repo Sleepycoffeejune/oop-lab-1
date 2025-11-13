@@ -15,3 +15,8 @@ class Member:
         self.borrowed_books_list = []
 
 
+class Library:
+    def __init__(self):
+        self.books_collection = []
+        self.members = []
+        self.borrowed_books = []
